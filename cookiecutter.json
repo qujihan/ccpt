@@ -1,0 +1,14 @@
+{
+    "project_slug": "cpp-project-demo",
+    "generator": [
+        "Ninja",
+        "Makefile"
+    ],
+    "cxx_minimum_standard": [
+        "23",
+        "20",
+        "17",
+        "14",
+        "11"
+    ]
+}
