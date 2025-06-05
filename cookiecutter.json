@@ -1,0 +1,14 @@
+{
+    "project_slug": "cpp-project-demo",
+    "build_type": [
+        "Release",
+        "Debug"
+    ],
+    "cxx_minimum_standard": [
+        "23",
+        "20",
+        "17",
+        "14",
+        "11"
+    ]
+}

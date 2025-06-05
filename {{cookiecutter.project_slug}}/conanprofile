@@ -1,0 +1,11 @@
+[settings]
+arch=armv8
+build_type={{ cookiecutter.build_type }}
+compiler=apple-clang
+compiler.cppstd={{ cookiecutter.cxx_minimum_standard }}
+compiler.libcxx=libc++
+compiler.version=17
+os=Macos
+
+[conf]
+tools.cmake.cmaketoolchain:generator=Ninja
