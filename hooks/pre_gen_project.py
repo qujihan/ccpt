@@ -10,5 +10,7 @@ import sys
 
 def hook(context):
     build_type = context['cookiecutter']['build_type']
-    if build_type == 'XMake':
+    print(f"build_type: {build_type}")  # 输出 build_type 以调试
+    if 'XMake' in build_type:
+        print("Removing 'generator'")  # 输出提示消息
         del context['cookiecutter']['generator']
