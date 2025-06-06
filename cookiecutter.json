@@ -1,5 +1,9 @@
 {
     "project_slug": "cpp-project-demo",
+    "build_type": [
+        "XMake",
+        "CMake"
+    ],
     "generator": [
         "Ninja",
         "Makefile"
