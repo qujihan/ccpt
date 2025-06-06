@@ -11,4 +11,4 @@ import sys
 def hook(context):
     build_type = context['cookiecutter']['build_type']
     if build_type == 'XMake':
-        context.pop('cookiecutter')['generator']  # 删除 B 选项
+        del context['cookiecutter']['generator']
