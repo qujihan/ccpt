@@ -1,6 +1,6 @@
 # https://clangd.llvm.org/config
 CompileFlags:
-  CompilationDatabase: {%- if cookiecutter.build_type == "CMake" -%}  build/clangd {%- elif cookiecutter.build_type == "XMake" -%}  .vscode {% endif %}
+  CompilationDatabase:  {%- if cookiecutter.build_type == "CMake" -%} build/clangd {%- elif cookiecutter.build_type == "XMake" -%} .vscode {% endif %}
   Add: -Wno-unqualified-std-cast-call
 
 Completion:
